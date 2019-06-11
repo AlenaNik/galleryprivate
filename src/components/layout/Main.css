@@ -1,0 +1,76 @@
+.jumbotron-fluid {
+    text-align: center;
+    background-color: white!important;
+}
+
+h1.display-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333c4e;
+    font-size: 2rem;
+
+}
+
+p.lead {
+    font-size: 0.9rem;
+    line-height: 0.2em;
+    font-weight: 300;
+    color: #333c4e;
+}
+
+.orange-container {
+    height: 300px;
+    background-color: #FD8204;
+}
+
+i {
+    color: #f8f8f8!important;
+}
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+button.btn-secondary {
+    font-family: 'Barlow', sans-serif;
+    background: #333c4e;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border: none;
+}
+
+
+button.btn-secondary:hover {
+    background: #fa6b00;
+    cursor: pointer;
+}
+
+div.input-group {
+    display: inline-flex;
+    border-radius: 2rem;
+    border: 10px solid rgb(255, 255, 255, 0.5);
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding: 20px;
+}
+
+input.form-control {
+    display: initial;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333c4e!important;
+    font-size: 0.77rem;
+}
