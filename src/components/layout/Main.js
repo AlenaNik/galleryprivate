@@ -14,7 +14,7 @@ class Main extends Component {
                         <h1 className="display-3">A gallery app for Room Box</h1>
                         <p className="lead">Helps you visualize finished renders</p>
                         <InputGroup>
-                            <Input className="picsearch" placeholder="Name your project..." />
+                            <Input placeholder="Name your project..." />
                             <InputGroupAddon addonType="append">
                                 <Button>Show</Button>
                             </InputGroupAddon>
