@@ -1,0 +1,1 @@
+// here is where Hero image, Hero text and Search bar is
