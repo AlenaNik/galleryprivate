@@ -1,9 +1,22 @@
+/* Nav bar on the top of the page. It's very easy to add links if needed */
+
+.logo {
+    margin: 0 0 0 0.5rem;
+    padding: 0;
+    width: 20%;
+    height: 10%;
+}
+
 .main-header {
-    box-shadow: 0 0.1px 5px 0 rgba(0,0,0,0.14),0 1px 1px -30px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12)!important;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     padding: .5rem 5rem!important;
+}
 
+a.nav-link {
+    color: #333c4e!important;
+    font-weight: 400;
+    margin: 0rem 2rem 0rem 0rem;
 }
 
 
@@ -15,15 +28,13 @@ button.btn-secondary {
     height: 2rem;
     width: 5.5rem;
     color: #FFFFFF;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     transition-duration: .4s;
     transition-property: all;
     border: none;
 }
 
-
 button.btn-secondary:hover {
     background: #fa6b00;
     cursor: pointer;
-    animation: jelly 0.5s;
 }

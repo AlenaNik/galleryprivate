@@ -1,0 +1,25 @@
+
+.orange-container {
+    height: 15rem;
+    background-color: #FD8204;
+    border-top: 1rem solid #fa6b00;
+}
+/* icons from front awesome*/
+
+i {
+    color: #f8f8f8!important;
+}
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}

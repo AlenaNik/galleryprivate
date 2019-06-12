@@ -1,0 +1,7 @@
+.react-photo-gallery--gallery {
+    padding: 2rem;
+}
+/* This can affect every image on the page, please specify className */
+img {
+    padding: 1rem;
+}

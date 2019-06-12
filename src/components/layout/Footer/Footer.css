@@ -1,0 +1,34 @@
+.footer-nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: .5rem 5rem!important;
+    color: #333c4e!important;
+}
+
+i.footer-icon {
+    color: #333c4e!important;
+    padding: 1rem;
+}
+/* For configuring dropUp menu for Terms and Conditions
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #333c4e!important;
+    text-align: left;
+    list-style: none;
+    background-color: #FD8204;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+ */

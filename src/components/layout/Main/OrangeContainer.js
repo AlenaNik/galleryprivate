@@ -1,26 +1,11 @@
-// here is where Hero image, Hero text and Search bar is
 import React, {Component} from 'react';
-import { Jumbotron, Container, InputGroup, InputGroupText, InputGroupAddon, Input, Button } from 'reactstrap';
-import Cube from '../assets/cubeNoBackground.png'
-import './Main.css';
+import './OrangeContainer.css';
 
-class Main extends Component {
+
+class OrangeContainer extends Component {
     render() {
         return (
             <div>
-                <Jumbotron fluid>
-                    <Container fluid>
-                        <img src={Cube} alt="" style={{width: "200px", height: "200px"}}/>
-                        <h1 className="display-3">A gallery app for Room Box</h1>
-                        <p className="lead">Helps you visualize finished renders</p>
-                        <InputGroup>
-                            <Input placeholder="Name your project..." />
-                            <InputGroupAddon addonType="append">
-                                <Button>Show</Button>
-                            </InputGroupAddon>
-                        </InputGroup>
-                    </Container>
-                </Jumbotron>
                 <div className="orange-container">
                     <div className="container">
                         <ul>
@@ -47,4 +32,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default OrangeContainer;
