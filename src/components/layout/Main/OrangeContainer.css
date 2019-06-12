@@ -7,8 +7,8 @@
     width: 100%;
     background-color: #FD8204;
     padding: 2rem 0 2em;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+    border-top: 5px solid #fa6b00;
+
 }
 /* icons from front awesome*/
 
