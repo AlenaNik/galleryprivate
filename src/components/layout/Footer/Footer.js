@@ -24,7 +24,7 @@ export default class Example extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="grey-container">
                 <Navbar className="footer-nav" color="light" light expand="md">
                         <i className="fab fa-facebook-f footer-icon"/>
                         <i className="fab fa-twitter footer-icon"/>

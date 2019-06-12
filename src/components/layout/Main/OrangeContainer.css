@@ -1,8 +1,14 @@
+/* parent */
+.container {
+    text-align: center;
+}
 
 .orange-container {
-    height: 15rem;
+    width: 100%;
     background-color: #FD8204;
-    border-top: 1rem solid #fa6b00;
+    padding: 2rem 0 2em;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
 }
 /* icons from front awesome*/
 
@@ -10,16 +16,25 @@ i {
     color: #f8f8f8!important;
 }
 
-.container {
-    text-align: center;
-}
+/*items from inside container
 
-ul {
+REACTSTRAP */
+
+
+.orange-container ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: #f8f8f8;
+    margin-top: 5%;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 0.8rem;
+    display: flex;
+    align-items: center;
 }
+.orange-container ul li {
+    margin-bottom: 0;
+}
+.orange-container ul li p {
+    padding: 0 2em;
+}
+
