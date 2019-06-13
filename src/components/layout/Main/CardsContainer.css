@@ -1,0 +1,21 @@
+
+div.row {
+    justify-content: center;
+}
+p.card-text {
+    font-size: 0.9em;
+    font-weight: 300;
+    padding: 0.5rem;
+}
+div.individual-card.card.card-body {
+    background-color: transparent;
+    border: none;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    color: #333c4e;
+    transition-duration: .4s;
+    transition-property: all;
+}
+div.individual-card.card.card-body:hover {
+    color: #fa6b00;
+}

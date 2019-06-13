@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import { Jumbotron, Container, InputGroup, InputGroupAddon, Input, Button } from 'reactstrap';
 import './Main.css';
-import OrangeContainer from "./OrangeContainer";
+import CardsContainer from "./CardsContainer";
 import Illustration from './undraw_3d_modeling_h60h.svg'
 
 // In this section there is an illustration by https://undraw.co/ (may be used completely free and without attribution)
@@ -24,7 +24,7 @@ class Main extends Component {
                         </InputGroup>
                     </Container>
                 </Jumbotron>
-                <OrangeContainer/>
+                <CardsContainer/>
             </div>
         );
     }
